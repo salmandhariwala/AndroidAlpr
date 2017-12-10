@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/numberPlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="40px"
+        android:layout_margin="40px"/>
+
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/btn_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btnUploadToServer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/chargesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+
+
+</LinearLayout>

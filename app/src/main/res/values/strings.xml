@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parking Management</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnUploadToServer">Process Vehicle</string>
+</resources>

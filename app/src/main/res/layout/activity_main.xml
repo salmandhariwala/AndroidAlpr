@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/view_background"
+        android:orientation="horizontal"
+        android:layout_margin="20px">
+        <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/btn_bg"
+            android:gravity="center"
+            android:text="Mark Vehicle"
+            android:textColor="@color/white"
+            android:padding="20px"
+            android:layout_margin="40px"/>
+
+        <Button
+            android:id="@+id/clearParkingLot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/btn_bg"
+            android:gravity="center"
+            android:text="Clear Parking"
+            android:textColor="@color/white"
+            android:padding="20px"
+            android:layout_margin="20px"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking Lot Status"
+        android:textStyle="bold"
+        android:padding="10px"
+        android:layout_margin="10px"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/parkingLotStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+
+
+
+</LinearLayout>
+
+
